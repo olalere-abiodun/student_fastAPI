@@ -8,7 +8,7 @@ studentID = 0
 
 @app.get("/")
 def home():
-    return {"Welcome to My Student FastAPI application"}
+    return {"Welcome To Student FastAPI Application"}
 
 # creating a student
 @app.post("/student")
